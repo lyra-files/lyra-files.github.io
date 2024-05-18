@@ -1,0 +1,312 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Lyra Network - Lyra Client - Download</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lyrapvp.net/" />
+    <meta property="og:title" content="Lyra Network - Lyra Client - Download" />
+    <meta
+      property="og:description"
+      content="Lyra Network. Lyra Client. An utility client for 'Minecraft: Bedrock Edition'."
+    />
+    <meta property="og:image" content="../icon.png" />
+    <meta
+      property="description"
+      content="Lyra Client. An utility client for 'Minecraft: Bedrock Edition'."
+    />
+    <link rel="icon" type="image/png" content="../favicon.ico" />
+  </head>
+  <body>
+    <div id="background"></div>
+    <div id="topbar">
+      <div id="logo" class="trigger" onclick="location.href = '../'">
+        <img id="icon" src="../icon.png" />
+        <span class="txt uppercase lyra-l" id="lyra-txt">Lyra Download</span>
+      </div>
+      <div id="goback">
+        <span class="txt">Return ☇</span>
+      </div>
+      <img id="hamburg-germany" src="./hamburg.png" onclick="triggerPanel()" />
+    </div>
+    <div id="container">
+      <div id="content" class="panel morepadding">
+        <span id="intro"></span>
+        <div id="banner">
+          <span class="txt title" id="header">Download Lyra Client</span>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <span class="txt"
+          ><span class="greyed">But first...</span><br />Hello! The Lyra Staff
+          Team Here, We Just Wanted To Drop A Little Message For Every Lyra
+          User!<br />Make Sure To Read The Whole Thing!</span
+        ><br />
+        <button id="spoiler" onclick="boos()">Reveal Download</button>
+        <div id="bombshell">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt" id="buying">
+            1. Lyra's ""active"" community is a <b>lie</b>, the server was
+            previously <b>Mod Index</b>. This can be seen on
+            <a
+              class="txt hyperlink"
+              href="https://web.archive.org/web/20240507170300/https://discordbotlist.com/servers/mod-index-870991891741683732"
+              >WayBack Machine.</a
+            >
+          </span>
+          <br />
+          <br />
+          <div class="img-container">
+            <img src="./imgs/lyra_mod_index.png" class="img img-height" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt" id="partners">
+            2. Lyra once had paid partnerships (despite the membercount being
+            practically fake).
+          </span>
+          <br />
+          <br />
+          <div class="img-container">
+            <img src="./imgs/paid_partnerships1.png" class="img img-width" />
+            <br class="only-mobile" />
+            <img src="./imgs/paid_partnerships2.png" class="img img-width" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt" id="design">
+            3. The mod menu design from Lyra is stolen.
+          </span>
+          <br />
+          <a
+            class="txt hyperlink"
+            href="https://www.figma.com/file/xbSyG3foSWepRevpiCKNPw/Untitled?type=design"
+            >Here is the Figma project.</a
+          >
+          <br />
+          <div class="img-container">
+            <img src="./imgs/stolen_design2.png" class="img img-width-more" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt" id="staff">
+            4. We have bad intentions & are not fit to be staff of such a big
+            client.
+          </span>
+          <br />
+          <br />
+          <div class="img-container">
+            <img src="./imgs/bad_staff4.png" class="img img-height" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt" id="security"> 5. Our client is insecure. </span>
+          <br />
+          <br />
+          <div class="img-container">
+            <img src="./imgs/insecure_api4.png" class="img img-height-less" />
+            <br class="only-mobile" />
+            <img src="./imgs/insecure_api1.png" class="img img-height-less" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt" id="stats">
+            6. We collect your data without consent. We even log wether you're
+            in singleplayer.
+          </span>
+          <br />
+          <br />
+          <div class="img-container">
+            <img src="./imgs/wecollectdata.png" class="img img-height-less" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <span class="txt"> We log underaged users too</span>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt" id="scum">
+            7. Fucking tards let random dm advertise (against Discord tos).
+          </span>
+          <br />
+          <br />
+          <div class="img-container">
+            <img src="./imgs/advertising.png" class="img img-height-less" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span id="source"></span>
+          <button
+            class="leaks"
+            onclick="location.href = 'https://www.mediafire.com/file/gaezl70x7zvw6qj/lyra-05.zip/file';"
+          >
+            <b>Download our source code!</b>
+          </button>
+          <button
+            class="leaks"
+            onclick="location.href = 'https://www.mediafire.com/file/6ad8j9xxqt77mtd/lyra-api.zip/file';"
+          >
+            <b>Download our API!</b>
+          </button>
+          <br />
+          <br />
+          <a class="txt hyperlink" href="https://discord.gg/6tV6jqR2"
+            >Fuck Lyra and join Ceras</a
+          >
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="txt greyed">Hacked by Huncho</span>
+          <br />
+          <br />
+        </div>
+      </div>
+      <div id="side-overlay"></div>
+      <div id="sidepanel">
+        <div id="moreinfo" class="panel">
+          <span class="txt">Info:</span><br />
+          <span class="txt greyed">
+            Publish Date: 11/05/2024 (5/11)<br />Last Modified: 11/06/2024
+          </span>
+          <br />
+          <br />
+          <span class="txt">Description:</span><br />
+          <span class="txt greyed"> The most important Lyra update ever! </span>
+          <br />
+          <br />
+          <span class="txt">Author:</span><br />
+          <span class="txt greyed">hqncholiny</span>
+        </div>
+        <div id="summary" class="panel">
+          <span class="txt">Table of Contents:</span><br />
+          <a class="txt greyed bullet hyperlink" href="#buying"
+            >Active Community</a
+          >
+          <a class="txt greyed bullet hyperlink" href="#partners">Partners</a>
+          <a class="txt greyed bullet hyperlink" href="#design"
+            >Design Inspiration</a
+          >
+          <a class="txt greyed bullet hyperlink" href="#staff"
+            >Professionalism</a
+          >
+          <a class="txt greyed bullet hyperlink" href="#security">Security</a>
+          <a class="txt greyed bullet hyperlink" href="#stats">Stats</a>
+          <a class="txt greyed bullet hyperlink" href="#scum">Advertising</a>
+          <a class="txt greyed bullet hyperlink" href="#source">Download</a>
+        </div>
+      </div>
+    </div>
+    <div id="imageviewer">
+      <img id="closeimg" src="./close.png" onclick="triggerImage()" />
+      <div id="imageholder"><img id="imagesrc" src="" /></div>
+    </div>
+    <span class="txt" id="copyright"
+      >Copyright © Lyra Network. Lyra Client. 2024</span
+    >
+    <script>
+      const sideoverlay = document.getElementById("side-overlay");
+      const hamburg = document.getElementById("hamburg-germany");
+      const sidepanel = document.getElementById("sidepanel");
+      const content = document.getElementById("content");
+      //const header = document.getElementById("header");
+      const viewer = document.getElementById("imageviewer");
+      const source = document.getElementById("imagesrc");
+
+      window.addEventListener("resize", function (event) {
+        resize();
+      });
+
+      function resize() {
+        sideoverlay.style.display = "none";
+        hamburg.style.display = "block";
+        hamburg.src = "./hamburg.png";
+        if (window.matchMedia("(orientation: portrait)").matches) {
+          sidepanel.style.display = "none";
+        } else {
+          sidepanel.style.display = "block";
+          hamburg.style.display = "none";
+        }
+      }
+
+      resize();
+
+      function boos() {
+        document.getElementById("spoiler").style.display = "none";
+        document.getElementById("bombshell").style.display = "block";
+      }
+
+      function triggerPanel() {
+        if (sidepanel.style.display == "none") {
+          sidepanel.style.display = "block";
+          sideoverlay.style.display = "block";
+          hamburg.src = "./close.png";
+        } else {
+          sidepanel.style.display = "none";
+          sideoverlay.style.display = "none";
+          hamburg.src = "./hamburg.png";
+        }
+      }
+
+      function triggerImage(url = "") {
+        if (viewer.style.display == "block") {
+          viewer.style.display = "none";
+        } else {
+          viewer.style.display = "block";
+          source.src = url;
+        }
+      }
+
+      document.querySelectorAll("img.img").forEach(function (img) {
+        img.addEventListener("click", function () {
+          triggerImage(img.src);
+        });
+      });
+    </script>
+  </body>
+</html>
